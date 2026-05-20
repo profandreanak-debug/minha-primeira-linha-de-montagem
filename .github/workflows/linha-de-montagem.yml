@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
         
       - name: 1.5. Fabricar o produto
-        run: echo "Este é o nosso produto final!" > produto.txt
+        run: echo "Este é o nosso produto final!"
 
       - name: 2. Estação de Build (Montagem)
         run: echo "Construindo o projeto... Verificando se todas as peças se encaixam!"
